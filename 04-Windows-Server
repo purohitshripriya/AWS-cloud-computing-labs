@@ -1,0 +1,61 @@
+# Windows Server Lab
+
+## Overview
+
+Amazon EC2 allows users to launch Windows-based virtual machines in the cloud. Windows Server instances can be used to host applications, manage resources, and perform administrative tasks using Remote Desktop Protocol (RDP).
+
+In this lab, a Windows Server EC2 instance is launched on AWS and accessed remotely using Remote Desktop Connection.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Objective
+
+- Launch a Windows Server EC2 instance.
+- Configure Security Group rules.
+- Create and use a Key Pair.
+- Connect to the Windows Server using RDP.
+- Understand Windows instance management on AWS.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## AWS Services Used
+
+- Amazon EC2
+- Windows Server AMI
+- Security Groups
+- Key Pair
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+2. Navigated to the EC2 service and created a new instance.
+3. Selected **Windows Server 2022 Base AMI**.
+4. Chose the required instance type.
+5. Created and configured a Key Pair for secure access.
+6. Configured Security Group rules:
+   - RDP (Port 3389) for remote desktop access.
+   - HTTP (Port 80) if required for web applications.
+7. Launched the Windows Server EC2 instance.
+8. Retrieved the Administrator password using the Key Pair.
+9. Connected to the Windows Server instance using Remote Desktop Connection (RDP).
+10. Successfully accessed the Windows desktop environment.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Outcome
+
+Successfully launched and connected to a Windows Server instance on AWS EC2 using Remote Desktop Protocol (RDP).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Key Concepts Learned
+
+- Windows Server on AWS EC2
+- AMI (Amazon Machine Image)
+- RDP (Remote Desktop Protocol)
+- Key Pair Authentication
+- Security Groups
+- Instance Management
+- Cloud-Based Windows Infrastructure
