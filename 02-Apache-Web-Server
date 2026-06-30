@@ -1,0 +1,71 @@
+# Apache Web Server Lab
+
+## Overview
+
+Apache HTTP Server is an open-source web server used to host websites and web applications. It processes client requests and delivers web pages through HTTP/HTTPS protocols.
+
+In this lab, Apache Web Server is installed and configured on an AWS EC2 instance, and a webpage is hosted successfully.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Objective
+
+- Install Apache Web Server on an EC2 instance.
+- Start and enable Apache service.
+- Configure Security Group for HTTP access.
+- Host a webpage using Apache.
+- Access the webpage through EC2 Public IP.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## AWS Services Used
+
+- Amazon EC2
+- Security Groups
+- Amazon Linux 2023
+- Apache HTTP Server
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+2. Launched an Amazon EC2 instance using Amazon Linux 2023 AMI.
+3. Configured Security Group rules:
+   - SSH (Port 22) for remote access.
+   - HTTP (Port 80) for web access.
+4. Connected to the EC2 instance using PuTTY.
+5. Updated system packages using:
+    -sudo yum update -y
+6. Installed Apache Web Server:
+    -sudo yum install httpd -y
+7. Started Apache service:
+    -sudo systemctl start httpd
+8. Enabled Apache service to start automatically:
+    -sudo systemctl enable httpd
+9. Checked Apache service status:
+    -sudo systemctl status httpd
+10. Created a webpage inside Apache root directory:
+    -/var/www/html/index.html
+11. Accessed the hosted webpage using EC2 Public IP address.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Outcome
+
+Successfully installed and configured Apache Web Server on an AWS EC2 instance and hosted a webpage accessible through the EC2 Public IP.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Key Concepts Learned
+
+- Apache HTTP Server
+- Web Server Configuration
+- HTTP Protocol
+- Port 80 Communication
+- Linux Package Installation
+- Systemctl Service Management
+- Hosting Static Web Pages
+- AWS EC2 Web Server Deployment
+
+   
