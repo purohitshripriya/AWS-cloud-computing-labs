@@ -1,0 +1,59 @@
+# Internet Gateway Lab
+
+## Overview
+
+An Internet Gateway (IGW) is an AWS networking component that allows communication between resources inside a VPC and the public internet. It provides a route for internet traffic to and from resources placed in public subnets.
+
+In this lab, an Internet Gateway is created, attached to an AWS VPC, and configured to enable internet connectivity for public resources.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Objective
+
+- Create an Internet Gateway.
+- Attach the Internet Gateway to a VPC.
+- Understand the role of Internet Gateway in AWS networking.
+- Enable internet access for resources in a public subnet.
+- Verify Internet Gateway configuration.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## AWS Services Used
+
+- Amazon VPC
+- Internet Gateway
+- AWS Management Console
+- Public Subnet
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+2. Navigated to the **VPC Dashboard**.
+3. Selected **Internet Gateways** from the navigation panel.
+4. Created a new Internet Gateway.
+5. Provided a name for the Internet Gateway.
+6. Attached the Internet Gateway to the previously created VPC.
+7. Verified the attachment status.
+8. Checked the Internet Gateway details:
+   - Internet Gateway ID
+   - Attached VPC ID
+   - State
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Outcome
+
+Successfully created and attached an Internet Gateway to an AWS VPC, enabling internet connectivity for resources in the public subnet.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Key Concepts Learned
+
+- Internet Gateway (IGW)
+- VPC Internet Connectivity
+- Public Subnets
+- Network Routing
+- AWS Networking Components
+- Cloud Infrastructure Connectivity
