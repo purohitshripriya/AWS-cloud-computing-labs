@@ -1,0 +1,75 @@
+# Route Tables Lab
+
+## Overview
+
+A Route Table in AWS is a set of rules that determines where network traffic from subnets is directed. It controls the path for incoming and outgoing traffic within a VPC.
+
+Route Tables are used to connect public subnets with an Internet Gateway and private subnets with NAT Gateway for secure internet access.
+
+In this lab, Route Tables are created and configured to manage traffic flow inside an AWS VPC.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Objective
+
+- Create and configure Route Tables.
+- Associate Route Tables with subnets.
+- Add routes for internet connectivity.
+- Understand routing between public and private networks.
+- Verify Route Table configurations.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## AWS Services Used
+
+- Amazon VPC
+- Route Tables
+- Internet Gateway
+- Subnets
+- AWS Management Console
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+
+2. Navigated to the **VPC Dashboard**.
+
+3. Created a new Route Table inside the VPC.
+
+4. Created a Public Route Table:
+   - Associated it with the Public Subnet.
+   - Added a route to the Internet Gateway.
+
+   Route Configuration:
+  Destination: 0.0.0.0/0
+  Target: Internet Gateway
+
+5. Created a Private Route Table:
+- Associated it with the Private Subnet.
+- Configured routing for private resources.
+
+6. Verified subnet associations.
+
+7. Checked Route Table details:
+- Route Table ID
+- Associated Subnets
+- Routes
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Outcome
+
+Successfully created and configured Route Tables in an AWS VPC to control traffic flow between subnets and network components.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Key Concepts Learned
+
+- AWS Route Tables
+- Routing Rules
+- Public and Private Routing
+- Internet Gateway Routing
+- Subnet Association
+- Network Traffic Management
