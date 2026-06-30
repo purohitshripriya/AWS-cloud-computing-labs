@@ -1,0 +1,74 @@
+# Nginx Web Server Lab
+
+## Overview
+
+Nginx is an open-source web server used for hosting websites, reverse proxying, load balancing, and serving web applications. It is known for its high performance, scalability, and efficient handling of multiple client requests.
+
+In this lab, Nginx Web Server is installed and configured on an AWS EC2 instance, and a webpage is hosted successfully.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Objective
+
+- Install Nginx Web Server on an EC2 instance.
+- Configure and start Nginx service.
+- Allow HTTP access through Security Group.
+- Host a webpage using Nginx.
+- Access the webpage using EC2 Public IP.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## AWS Services Used
+
+- Amazon EC2
+- Security Groups
+- Amazon Linux 2023
+- Nginx Web Server
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+2. Created and launched an EC2 instance using Amazon Linux 2023 AMI.
+3. Configured Security Group rules:
+   - SSH (Port 22) for remote access.
+   - HTTP (Port 80) for web traffic.
+4. Connected to the EC2 instance using PuTTY.
+
+5. Updated system packages using:
+    -sudo yum update -y
+6. Installed Nginx Web Server:
+    -sudo yum install nginx -y
+7. Started the Nginx service:
+    -sudo systemctl start nginx
+8. Enabled Nginx service to start automatically after reboot:
+    -sudo systemctl enable nginx
+9. Checked Nginx service status:
+    -sudo systemctl status nginx
+10. Created and configured a webpage in the Nginx web directory:
+    -/usr/share/nginx/html/
+11. Added custom HTML content to the webpage.
+12. Opened the browser and accessed the webpage using:
+    -http://<EC2-Public-IP>
+
+13. Verified that the Nginx hosted webpage was displayed successfully.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Outcome
+
+Successfully installed and configured Nginx Web Server on an AWS EC2 instance and hosted a webpage accessible through the EC2 Public IP address.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Key Concepts Learned
+
+- Nginx Web Server
+- Web Server Configuration
+- HTTP Protocol
+- Port 80 Communication
+- Linux Package Management
+- Systemctl Service Management
+- Static Website Hosting
+- AWS EC2 Deployment
