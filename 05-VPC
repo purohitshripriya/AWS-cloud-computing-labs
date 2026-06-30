@@ -1,0 +1,56 @@
+# Amazon VPC Lab
+
+## Overview
+
+Amazon Virtual Private Cloud (VPC) is a networking service provided by AWS that allows users to create an isolated virtual network in the cloud. It provides control over IP addressing, subnets, routing, and security configurations.
+
+In this lab, an AWS VPC is created and configured to understand the basics of cloud networking.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Objective
+
+- Create an Amazon VPC.
+- Configure IPv4 CIDR block.
+- Understand VPC networking components.
+- Learn the basics of cloud network isolation.
+- Verify the created VPC configuration.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## AWS Services Used
+
+- Amazon VPC
+- AWS Management Console
+- IPv4 CIDR Block
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+2. Navigated to the **VPC Dashboard**.
+3. Created a new VPC.
+4. Configured the VPC settings:
+   - VPC Name
+   - IPv4 CIDR Block
+5. Created the VPC successfully.
+6. Verified the VPC details from the VPC Dashboard.
+7. Checked the assigned CIDR block and VPC ID.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Outcome
+
+Successfully created and configured an Amazon VPC, establishing an isolated virtual network environment in AWS.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Key Concepts Learned
+
+- Amazon VPC
+- CIDR Blocks
+- Virtual Network Isolation
+- IPv4 Addressing
+- VPC Configuration
+- AWS Networking Basics
