@@ -1,0 +1,68 @@
+# Public and Private Subnets Lab
+
+## Overview
+
+Subnets are subdivisions of an Amazon VPC that allow users to organize and manage resources within a virtual network. A VPC can contain public and private subnets based on their connectivity requirements.
+
+A public subnet allows resources to communicate directly with the internet through an Internet Gateway, while a private subnet is isolated and does not have direct internet access.
+
+In this lab, public and private subnets are created and configured inside an AWS VPC.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Objective
+
+- Create public and private subnets inside a VPC.
+- Configure subnet CIDR blocks.
+- Understand the difference between public and private subnets.
+- Associate subnets with a VPC.
+- Verify subnet configuration.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## AWS Services Used
+
+- Amazon VPC
+- Subnets
+- AWS Management Console
+- IPv4 CIDR Blocks
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+2. Navigated to the **VPC Dashboard**.
+3. Selected the previously created VPC.
+4. Created a Public Subnet:
+   - Assigned subnet name.
+   - Selected Availability Zone.
+   - Configured IPv4 CIDR block.
+5. Created a Private Subnet:
+   - Assigned subnet name.
+   - Selected Availability Zone.
+   - Configured IPv4 CIDR block.
+6. Verified both public and private subnets in the VPC dashboard.
+7. Checked subnet details including:
+   - Subnet ID
+   - Availability Zone
+   - CIDR Block
+   - Associated VPC
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Outcome
+
+Successfully created public and private subnets inside an AWS VPC and understood how subnet segmentation is used for organizing cloud resources.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Key Concepts Learned
+
+- Amazon VPC Subnets
+- Public Subnet
+- Private Subnet
+- CIDR Blocks
+- Availability Zones
+- Network Segmentation
+- AWS Networking Architecture
